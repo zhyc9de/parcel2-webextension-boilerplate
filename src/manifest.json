@@ -1,0 +1,22 @@
+{
+    "name": "parcel2-webextension-boilerplate",
+    "version": "0.1",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background/index.ts"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.mozilla.org/*"
+            ],
+            "js": [
+                "content/index.ts"
+            ]
+        }
+    ],
+    "permissions": [],
+    "web_accessible_resources": []
+}
