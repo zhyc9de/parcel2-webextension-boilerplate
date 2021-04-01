@@ -1,7 +1,13 @@
 {
-  "name": "helper-qimai",
+  "name": "parcel2-webextension-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "webextension boilerplate build with parcel2 🚀 ",
+  "keywords": [
+    "chrome-extension",
+    "web-extension",
+    "typescript",
+    "boilerplate"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "parcel src/manifest.json --host localhost --target webext-dev",
